@@ -14,13 +14,22 @@ This resulted in the increase in demand for the shuttle bus service with more st
 
 ## How the app works 
 ### User Side
-1. Students would create an account at the main menu. 
+1. Students would create an account at the menu page. 
     
    Example:(Matriculation No.: U1234567A , Password: Unicorn1997!)
-2. At the main menu, students would also be able to reset their password. 
+2. At the menu page, students would also be able to reset their password. 
 3. After logging in, the student would be able to make a booking for the next day's heartland shuttle buses at any of the pre-existing locations and timeslots. The student would also be able to withdraw their booking through the app. **(Note: all bookings and withdrawals have to be made before 2100hrs, no changes are allowed after that time)**
+
+![Booking Page](https://github.com/yeldaaa/Bus-Booking-GUI/blob/main/images/main_menu.jpg)
+
+![Booking Confirmed](https://github.com/yeldaaa/Bus-Booking-GUI/blob/main/images/booking_confirmed.jpg)
+
 4. The student would be issued a reciept that they need to show the bus driver before being allowed on the bus.
+![Reciept](https://github.com/yeldaaa/Bus-Booking-GUI/blob/main/images/receipt.jpg)
+
 5. If the demand exceeds capacity for a certain location and timeslot, the student would be put on a waiting list and would recieve a notification in the event that a student withdraws their booking or the bus company decides to send another bus to the specified location and timeslot. The notification will be sent before 2300.
+
+![Withdrawal](https://github.com/yeldaaa/Bus-Booking-GUI/blob/main/images/booking_withdrawn.jpg)
 
 ### Bus Company
 1. The bus company will get the data from the busresponse file and if demand > 1.5x Capacity, will trigger an alert to the management. 

@@ -1,0 +1,106 @@
+{
+    "name": "Data for NTU Heartland Services System",
+    "meta": {
+        "Location": {
+            "Timing": "List of data: demand,capacity,students on waitlist,additional buses needed, add. buses sent"
+        }
+    },
+    "data": {
+        "Tampines": {
+            "7:00": [
+                79,
+                90,
+                0,
+                0,
+                1
+            ],
+            "7:10": [
+                80,
+                45,
+                35,
+                1,
+                0
+            ]
+        },
+        "Sengkang": {
+            "7:00": [
+                0,
+                45,
+                0,
+                0,
+                0
+            ],
+            "7:10": [
+                0,
+                45,
+                0,
+                0,
+                0
+            ]
+        },
+        "Punggol": {
+            "7:10": [
+                0,
+                45,
+                0,
+                0,
+                0
+            ]
+        },
+        "Ang Mo Kio": {
+            "7:00": [
+                0,
+                45,
+                0,
+                0,
+                0
+            ],
+            "7:10": [
+                0,
+                45,
+                0,
+                0,
+                0
+            ],
+            "7:20": [
+                0,
+                45,
+                0,
+                0,
+                0
+            ]
+        },
+        "Bukit Gombak": {
+            "7:40": [
+                0,
+                45,
+                0,
+                0,
+                0
+            ],
+            "7:50": [
+                0,
+                45,
+                0,
+                0,
+                0
+            ],
+            "8:00": [
+                0,
+                45,
+                0,
+                0,
+                0
+            ]
+        },
+        "Pasir Ris": {
+            "7:00": [
+                0,
+                45,
+                0,
+                0,
+                0
+            ]
+        }
+    }
+}
